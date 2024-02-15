@@ -1,95 +1,96 @@
 const perguntas = [
     {
-        pergunta: "Qual é a palavra-chave usada para declarar uma variável em JavaScript?",
+        pergunta: "Qual país sediará as Olimpíadas de Inverno de 2022?",
         respostas: [
-            "var",
-            "let",
-            "const"
+            "Estados Unidos",
+            "China",
+            "Canadá"
         ],
-        correta: 2 // A resposta correta é "const"
+        correta: 1 // A resposta correta é "China"
     },
     {
-        pergunta: "Qual é a maneira correta de escrever um comentário de uma linha em JavaScript?",
+        pergunta: "Qual foi a primeira criptomoeda a atingir um valor de mercado de 1 trilhão de dólares?",
         respostas: [
-            "// Este é um comentário",
-            "<!-- Este é um comentário -->",
-            "/* Este é um comentário */"
+            "Bitcoin",
+            "Ethereum",
+            "Dogecoin"
         ],
-        correta: 0 // A resposta correta é "// Este é um comentário"
+        correta: 0 // A resposta correta é "Bitcoin"
     },
     {
-        pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
+        pergunta: "Qual país recentemente realizou um referendo para decidir se legalizaria o aborto?",
         respostas: [
-            "==",
-            "===",
-            "="
+            "Argentina",
+            "Brasil",
+            "México"
         ],
-        correta: 1 // A resposta correta é "==="
+        correta: 0 // A resposta correta é "Argentina"
     },
     {
-        pergunta: "Como você chama uma função chamada 'minhaFuncao' em JavaScript?",
+        pergunta: "Qual país lançou recentemente uma sonda espacial para estudar Marte?",
         respostas: [
-            "minhaFuncao()",
-            "call minhaFuncao()",
-            "invoke minhaFuncao()"
+            "Estados Unidos",
+            "China",
+            "Rússia"
         ],
-        correta: 0 // A resposta correta é "minhaFuncao()"
+        correta: 1 // A resposta correta é "China"
     },
     {
-        pergunta: "Qual é o método usado para converter uma string em um número em JavaScript?",
+        pergunta: "Qual é o nome da variante do coronavírus identificada pela primeira vez na África do Sul?",
         respostas: [
-            "parseInt()",
-            "stringToNumber()",
-            "toNumber()"
+            "Delta",
+            "Omicron",
+            "Beta"
         ],
-        correta: 0 // A resposta correta é "parseInt()"
+        correta: 2 // A resposta correta é "Beta"
     },
     {
-        pergunta: "Qual função é usada para imprimir algo no console em JavaScript?",
+        pergunta: "Qual empresa recentemente anunciou planos para lançar turismo espacial comercial?",
         respostas: [
-            "log()",
-            "print()",
-            "console.log()"
+            "SpaceX",
+            "Virgin Galactic",
+            "Blue Origin"
         ],
-        correta: 2 // A resposta correta é "console.log()"
+        correta: 1 // A resposta correta é "Virgin Galactic"
     },
     {
-        pergunta: "Qual é o operador usado para concatenar strings em JavaScript?",
+        pergunta: "Qual cidade foi recentemente afetada por fortes inundações na Europa?",
         respostas: [
-            "+",
-            "&",
-            "~"
+            "Paris",
+            "Berlim",
+            "Veneza"
         ],
-        correta: 0 // A resposta correta é "+"
+        correta: 0 // A resposta correta é "Paris"
     },
     {
-        pergunta: "Qual é o resultado da expressão 2 + '2' em JavaScript?",
+        pergunta: "Qual país recentemente legalizou o casamento entre pessoas do mesmo sexo?",
         respostas: [
-            "22",
-            "4",
-            "Erro"
+            "Brasil",
+            "China",
+            "Malta"
         ],
-        correta: 0 // A resposta correta é "22"
+        correta: 2 // A resposta correta é "Malta"
     },
     {
-        pergunta: "Qual é a função usada para obter o comprimento de uma string em JavaScript?",
+        pergunta: "Qual jogador de futebol recentemente quebrou o recorde de maior número de gols na história da seleção?",
         respostas: [
-            "length()",
-            "size()",
-            "length"
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Pelé"
         ],
-        correta: 2 // A resposta correta é "length"
+        correta: 0 // A resposta correta é "Lionel Messi"
     },
     {
-        pergunta: "Qual é a maneira correta de incluir um arquivo JavaScript externo em um arquivo HTML?",
+        pergunta: "Qual foi o último filme a ganhar o Oscar de Melhor Filme?",
         respostas: [
-            "<script href='script.js'></script>",
-            "<script src='script.js'></script>",
-            "<javascript src='script.js'></javascript>"
+            "Nomadland",
+            "Parasita",
+            "Coringa"
         ],
-        correta: 1 // A resposta correta é "<script src='script.js'></script>"
+        correta: 0 // A resposta correta é "Nomadland"
     }
 ];
+
 
 const quiz = document.querySelector('#quiz')
 const tamplate = document.querySelector('template')
